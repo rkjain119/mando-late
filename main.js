@@ -4,7 +4,7 @@ let outputTranslateText = document.querySelector("#output-text");
 let btnTranslate = document.querySelector("#btn-translate");
 btnTranslate.addEventListener("click", btnClick);
 
-let apiURL = "https://api.funtranslations.com/translate/shakespeare.json";
+let apiURL = "https://api.funtranslations.com/translate/mandalorian.json";
 
 
 function btnClick(e) {

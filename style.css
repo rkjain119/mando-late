@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Mandalore Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mandalore Regular'), url('src/mandalore.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    text-align: end;
+}
+
+body {
+    font-family: 'Mandalore Regular';
+    background-image: url("src/sil.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+header {
+    padding-left: 10vh;
+    background-color: #AFB0A1;
+    padding: 1.5rem;
+    color: #4B2D0B;
+    text-align: right;
+    padding-right: 10vh;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    padding-right: 10vh;
+}
+
+
+h1,
+.btn {
+    text-align: right;
+}
+
+#btn-translate,
+#input-text {
+    font-family: 'Mandalore Regular';
+}
+
+#btn-translate {
+    background-color: #4B2D0B;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: 'Mandalore Regular';
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-style: none;
+    padding: 10px 20px;
+    margin: 4px 2px;
+}
+
+/* #btn-translate:hover {
+	opacity: 0.9;
+} */
+
+#input-text {
+    width: 50vh;
+    min-height: 10vh;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0 0 11px rgb(245, 222, 179);
+}
+
+.translated-text h3 {
+    margin: 1rem;
+    color: #4B2D0B;
+    font-weight: 600;
+}
+
+#output-text {
+    float: right;
+    width: 50vh;
+    padding: 1rem;
+    background-color: #fff;
+    color: black;
+    min-height: 15vh;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 11px rgb(245, 222, 179);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4B2D0B;
+}
+
+.footer-info {
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
